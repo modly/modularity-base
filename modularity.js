@@ -34,4 +34,4 @@ function executePack() {
     }
 }
 
-window.onload = executePacks;
+window.onload = executePack;
