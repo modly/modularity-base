@@ -23,7 +23,6 @@ function executePack() {
             }
           }
           if (tag === suffix) {
-
             if (block === modules[a][b][0]) {
               elements[c].style = (modules[a][b][2] + elements[c].style.cssText);
               eval("elements[c].outerHTML = elements[c].outerHTML.replace(/<" + modules[a][0] + "/g,'<" + modules[a][b][1] + "').replace(/" + modules[a][0] + ">/g,'" + modules[a][b][1] + ">')");
