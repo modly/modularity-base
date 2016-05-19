@@ -1,4 +1,4 @@
-function executePack() {
+function executePack(pack) {
   var name = pack[0];
   var version = pack[1];
   var prefix = pack[2];
@@ -51,5 +51,3 @@ function executePack() {
     }
   }
 }
-
-window.onload = executePack;
